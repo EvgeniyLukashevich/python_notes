@@ -1,7 +1,7 @@
 from Db import load_data, save_data
 from .view import show_menu, select_menu_item, show_notes, \
     add_text, add_title, \
-    edit_choose, search_error, edit_menu, select_edit_item, successful_change,\
+    edit_choose, search_error, edit_menu, select_edit_item, successful_change, \
     successful_remove
 from .model import menu_string, select_menu_string, show_notes_string, \
     add_text_string, add_title_string, add_note_to_notelist, \

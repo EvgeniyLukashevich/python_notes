@@ -12,7 +12,8 @@ def search_note_index(id_note, note_list: list):
             return i
     return -1
 
-def edit_date(note:Note):
+
+def edit_date(note: Note):
     date = datetime.now()
     date = date.strftime("%d.%m.%Y %H:%M")
     note.set_date(date)
